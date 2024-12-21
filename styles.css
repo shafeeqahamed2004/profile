@@ -1,0 +1,77 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #201313;
+    color: #e0c1c1;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 1%;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 100px;
+    
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Links styling */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 1em;
+    color: #777;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 10px 0;
+}
